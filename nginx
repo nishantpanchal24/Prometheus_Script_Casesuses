@@ -1,0 +1,11 @@
+scrape_configs:
+  - job_name: 'nginx'
+    static_configs:
+      - targets: ['nginx-host:9100']  # Replace with your Nginx server and exporter port
+
+its yaml file, #nishant 
+
+prometheus --config.file=/path/to/prometheus.yml
+
+
+
